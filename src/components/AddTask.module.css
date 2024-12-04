@@ -1,12 +1,12 @@
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* width: 100%; */
     height: 3rem;
     margin-top: -1.5rem;
     gap: 0.5rem;
@@ -15,7 +15,6 @@
 .content input {
     padding: 1rem;
     border-radius: 8px;
-    width: 39.875rem;
     background: var(--gray-500);
     color: var(--gray-100);
     line-height: 1.4;
