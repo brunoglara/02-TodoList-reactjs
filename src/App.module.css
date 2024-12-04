@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 50rem;
+}
+
+/* Trabalhar com responsividade para tamanhos comuns em mobile 
+(Para funcionar bem precisa usar rem para unidades de medida) */
+/* @media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+} */

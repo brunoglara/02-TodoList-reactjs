@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.created {
+    font-weight: bold;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.completed {
+    font-weight: bold;
+    color: var(--purple);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.info strong {
+    color: var(--gray-200);
+    font-size: 12px;
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
