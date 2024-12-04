@@ -1,50 +1,79 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Todo List Application
 
-Currently, two official plugins are available:
+A sleek and responsive **Todo List Application** built with **React.js** and **TypeScript**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 📝 **Add, Edit, and Delete Todos**: Full CRUD operations for task management.
+- 📂 **Persistent State**: Saves tasks using modern state management techniques.
+- 📱 **Responsive Design**: Works seamlessly across desktops, tablets, and mobile devices.
+- ⚡ **Fast and Lightweight**: Built with Vite for superior performance.
+- 🛠️ **TypeScript Integration**: Ensures type safety and scalable code.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies Used
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React.js**: Component-based library for building user interfaces.
+- **TypeScript**: Enhances JavaScript with type definitions for robust development.
+- **Vite**: Modern build tool for fast development and production builds.
+- **CSS Modules**: Scoped and modular CSS for styling.
+- **ESLint**: Linting for code quality and consistency.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## 📂 Project Structure
+
+    
+    02-TodoList-reactjs/
+    ├── public/              # Static assets
+    ├── src/                 # Source code
+    │   ├── components/      # Reusable components
+    │   ├── styles/          # CSS styles
+    │   ├── App.tsx          # Main application entry
+    │   └── main.tsx         # React entry point
+    ├── package.json         # Project dependencies and scripts
+    ├── tsconfig.json        # TypeScript configuration
+    └── vite.config.ts       # Vite configuration
+
+---
+## ⚙️ Installation and Usage
+
+### Prerequisites
+- Node.js (v16 or later)
+- npm or Yarn
+
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/02-TodoList-reactjs.git
+   cd 02-TodoList-reactjs
+
+2.	Install dependencies:
+    ```bash
+    npm install
+
+3.	Start the development server:
+    ```bash
+    npm run dev
+
+4.	Open your browser at http://localhost:5173.
+
+5.	Build for production:
+    ```bash
+    npm run build
+
+6.	Preview the production build locally:
+    ```bash
+    npm run Preview
+
+## 🖼️ Screenshots
+
+### App in Action
+![Screenshot 1](public/screenshots/Screenshot_1.png)
+
+![Screenshot 2](public/screenshots/Screenshot_2.png)
